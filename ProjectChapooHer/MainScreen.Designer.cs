@@ -1,6 +1,6 @@
 ﻿namespace ProjectChapooHer
 {
-    partial class Form1
+    partial class MainScreen
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // MainScreen
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1463, 849);
+            this.Name = "MainScreen";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

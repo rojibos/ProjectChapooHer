@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ProjectChapooHer.Dal
 {
-    class Base
+    public abstract class Base
     {
         private SqlDataAdapter adapter;
         private SqlConnection conn;
